@@ -10,4 +10,50 @@
     tools:context="a2017_1.pooa.iff.br.pesoideal.MainActivity">
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAltura"
+            android:hint="Digite sua altura" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        </RadioGroup>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homem"
+            android:id="@+id/rdbHomem"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mulher"
+            android:id="@+id/rdbMulher"
+            android:checked="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:id="@+id/btCalcular"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
 </LinearLayout>
