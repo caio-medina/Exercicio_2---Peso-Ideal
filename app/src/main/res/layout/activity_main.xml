@@ -54,6 +54,12 @@
             android:id="@+id/btCalcular"
             android:layout_gravity="center_horizontal" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imgView"
+            android:layout_gravity="center_horizontal" />
+
     </LinearLayout>
 
 </LinearLayout>
